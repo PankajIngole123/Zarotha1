@@ -49,4 +49,8 @@ public void TakeScreenShot() throws IOException{
 public void CloseBrowser() throws IOException{
 	driver.close();
 }
+public void TakeScredafenShot() throws IOException{
+	System.out.println("PANKAJIngole");
+	ScreenShot.ScreenShot1(driver);
+}
 }
